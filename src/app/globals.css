@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* === Primary: Deep Teal === */
+  --color-primary: #006269;
+  --color-primary-container: #008376;
+  --color-primary-fixed: #8df5e4;
+  --color-primary-fixed-dim: #70d8c8;
+
+  /* === Secondary: Architectural Gold === */
+  --color-secondary: #785a00;
+  --color-secondary-container: #e4e2e1;
+
+  /* === Tertiary: Sienna Burn === */
+  --color-tertiary: #84491e;
+
+  /* === Surface System === */
+  --color-surface: #f9f9f9;
+  --color-surface-bright: #f9f9f9;
+  --color-surface-dim: #d7dbdb;
+  --color-surface-lowest: #ffffff;
+  --color-surface-low: #f3f3f4;
+  --color-surface-mid: #eeeeee;
+  --color-surface-high: #e8e8e8;
+  --color-surface-highest: #e2e2e2;
+
+  /* === On Colors (text) === */
+  --color-on-surface: #181c1d;
+  --color-on-surface-variant: #3d4946;
+  --color-on-primary: #ffffff;
+
+  /* === Outline === */
+  --color-outline: #6d7a77;
+  --color-outline-variant: #bcc9c5;
+
+  /* === Functional === */
+  --color-background: #f7fafa;
+  --color-foreground: #181c1d;
+
+  /* === Typography === */
+  --font-headline: var(--font-work-sans);
+  --font-body: var(--font-inter);
+
+  /* === Ghost Shadow === */
+  --shadow-ghost: 0 0 24px rgba(24, 28, 29, 0.05);
+  --shadow-ghost-lg: 0 0 40px rgba(24, 28, 29, 0.07);
+}
+
+/* === Base Styles === */
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+/* === Glassmorphism Utility === */
+.glass {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.glass-dark {
+  background: rgba(0, 98, 105, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+/* === Gradient Button === */
+.btn-gradient {
+  background: linear-gradient(135deg, #006269, #008376);
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(135deg, #008376, #006269);
+  box-shadow: 0 0 24px rgba(0, 98, 105, 0.2);
+}
+
+/* === Smooth Scroll === */
+html {
+  scroll-behavior: smooth;
+}
+
+/* === Selection === */
+::selection {
+  background: var(--color-primary-fixed-dim);
+  color: #00201c;
+}
