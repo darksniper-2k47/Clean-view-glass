@@ -2,10 +2,9 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
-import { NAV_LINKS, BUSINESS } from "@/lib/constants";
+import { NAV_LINKS } from "@/lib/constants";
 import { Button } from "@/components/ui/Button";
 
 export function Navbar() {
@@ -16,17 +15,11 @@ export function Navbar() {
     <>
       <nav className="fixed top-0 w-full z-50 glass shadow-[var(--shadow-ghost)]">
         <div className="flex justify-between items-center px-6 lg:px-8 py-4 max-w-7xl mx-auto">
-          <Link href="/" className="flex items-center gap-3 cursor-pointer">
-            <Image
-              src="/images/logo.png"
-              alt="Clean View Glass Logo"
-              width={40}
-              height={40}
-              className="h-10 w-auto"
-              priority
-            />
-            <span className="text-xl lg:text-2xl font-extrabold tracking-tighter text-on-surface font-headline uppercase">
-              {BUSINESS.name}
+          <Link href="/" className="flex items-center cursor-pointer">
+            <span className="text-2xl lg:text-[1.7rem] font-extrabold tracking-tight font-headline uppercase leading-none">
+              <span className="text-primary">Clean</span>{" "}
+              <span className="text-primary-container">View</span>{" "}
+              <span className="text-secondary">Glass</span>
             </span>
           </Link>
 
