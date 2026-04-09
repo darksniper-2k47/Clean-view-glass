@@ -14,7 +14,7 @@ export function Testimonials() {
             key={testimonial.name}
             className="bg-surface-lowest p-8 rounded-[0.75rem] shadow-[var(--shadow-ghost)]"
           >
-            <div className="flex gap-1 text-secondary mb-4">
+            <div className="flex gap-1 text-yellow-400 mb-4">
               {[...Array(5)].map((_, i) => (
                 <Star key={i} size={18} fill="currentColor" strokeWidth={0} />
               ))}

@@ -8,10 +8,8 @@ export function Footer() {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-12 px-6 lg:px-8 max-w-7xl mx-auto">
         {/* Brand */}
         <div className="col-span-1">
-          <span className="text-xl font-extrabold font-headline uppercase tracking-tight block mb-6">
-            <span className="text-primary">Clean</span>{" "}
-            <span className="text-primary-container">View</span>{" "}
-            <span className="text-secondary">Glass</span>
+          <span className="text-xl font-extrabold font-headline uppercase tracking-tight block mb-6 text-primary-container">
+            Clean View Glass
           </span>
           <p className="text-white/50 text-sm leading-relaxed">
             {BUSINESS.tagline}. Leading the industry with premium glass

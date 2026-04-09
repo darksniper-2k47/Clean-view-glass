@@ -16,10 +16,8 @@ export function Navbar() {
       <nav className="fixed top-0 w-full z-50 glass shadow-[var(--shadow-ghost)]">
         <div className="flex justify-between items-center px-6 lg:px-8 py-4 max-w-7xl mx-auto">
           <Link href="/" className="flex items-center cursor-pointer">
-            <span className="text-2xl lg:text-[1.7rem] font-extrabold tracking-tight font-headline uppercase leading-none">
-              <span className="text-primary">Clean</span>{" "}
-              <span className="text-primary-container">View</span>{" "}
-              <span className="text-secondary">Glass</span>
+            <span className="text-2xl lg:text-[1.7rem] font-extrabold tracking-tight font-headline uppercase leading-none text-primary-container">
+              Clean View Glass
             </span>
           </Link>
 
