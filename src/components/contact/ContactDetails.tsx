@@ -4,7 +4,7 @@ import { BUSINESS } from "@/lib/constants";
 const details = [
   {
     icon: MapPin,
-    label: "Our Office",
+    label: "Our Workshop",
     content: BUSINESS.address,
   },
   {

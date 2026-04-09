@@ -27,37 +27,37 @@ export const SERVICES = [
   {
     title: "Residential Glass",
     description:
-      "Custom windows, door replacements, and safety glass upgrades for Cape Town homes.",
+      "Custom-cut window glass, door panes, and safety glass for Cape Town homes. Cut to your exact measurements.",
     icon: "Home" as const,
   },
   {
-    title: "Commercial Glazing",
+    title: "Commercial Glass",
     description:
-      "High-performance glazing solutions for offices, industrial spaces, and retail outlets.",
+      "High-performance glass cut to size for offices, industrial spaces, and retail outlets.",
     icon: "Building2" as const,
   },
   {
-    title: "Shopfronts & Partitions",
+    title: "Shopfront Glass",
     description:
-      "Modernize your business appearance with sleek glass storefronts and office partitions.",
+      "Precision-cut glass panels for storefronts, office partitions, and display cases.",
     icon: "Store" as const,
   },
   {
     title: "Mirrors & Splashbacks",
     description:
-      "Custom-cut mirrors and vibrant glass splashbacks for kitchen and bathroom renovations.",
+      "Custom-cut mirrors and vibrant glass splashbacks sized to fit your kitchen or bathroom.",
     icon: "LayoutGrid" as const,
   },
   {
     title: "Glass Balustrades",
     description:
-      "Elegant frameless and semi-frameless balustrades for balconies and staircases.",
+      "Frameless and semi-frameless balustrade glass cut to specification for balconies and staircases.",
     icon: "Fence" as const,
   },
   {
-    title: "Emergency Repair",
+    title: "Emergency Glass",
     description:
-      "Fast 24/7 glass replacement and board-up services across the Western Cape.",
+      "Fast 24/7 glass cutting and replacement supply across the Western Cape.",
     icon: "Wrench" as const,
   },
 ] as const;
@@ -78,7 +78,7 @@ export const VALUES = [
   {
     title: "Precise",
     description:
-      "Measurement and installation executed down to the millimeter for a flawless fit.",
+      "Every cut executed down to the millimeter for a flawless fit, every time.",
     icon: "Ruler" as const,
   },
   {
@@ -92,13 +92,13 @@ export const VALUES = [
 export const TESTIMONIALS = [
   {
     quote:
-      "Exceptional service. They replaced our shopfront glass overnight. Highly professional team.",
+      "Exceptional service. They cut and supplied our shopfront glass same day. Highly professional team.",
     name: "Sarah Jenkins",
     title: "Retail Manager",
   },
   {
     quote:
-      "The glass balustrades they installed transformed our balcony. The clarity and finish are perfect.",
+      "The balustrade glass they cut for us was perfect. Exact measurements, flawless clarity and finish.",
     name: "Michael Venter",
     title: "Homeowner",
   },

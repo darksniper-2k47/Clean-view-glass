@@ -20,7 +20,7 @@ export function Hero() {
           Premium Glass Solutions in Cape Town
         </h1>
         <p className="text-white/90 text-xl md:text-2xl mb-10 max-w-3xl mx-auto font-body font-normal leading-relaxed">
-          Precision glass installation and glazing services for homes and
+          Premium glass cut to size for homes and
           businesses
         </p>
         <Button href="/contact" variant="gradient" className="text-lg px-10 py-4">

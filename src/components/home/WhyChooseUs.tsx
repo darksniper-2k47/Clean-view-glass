@@ -5,7 +5,7 @@ const reasons = [
     icon: BadgeCheck,
     title: "Quality Craftsmanship",
     description:
-      "Industry-leading standards and premium materials in every installation we perform.",
+      "Industry-leading standards and premium materials in every cut we make.",
   },
   {
     icon: Zap,

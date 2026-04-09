@@ -16,7 +16,7 @@ export function CoreValues() {
         <SectionHeading title="Our Core Values" />
         <p className="text-on-surface-variant max-w-2xl mx-auto text-lg leading-relaxed -mt-10 mb-16">
           The foundation of our business is built on these four pillars of
-          excellence, guiding every cut and every installation.
+          excellence, guiding every cut and every order.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">

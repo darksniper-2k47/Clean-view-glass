@@ -7,7 +7,7 @@ import { MapEmbed } from "@/components/contact/MapEmbed";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Get in touch with Clean View Glass for a free quote on glass installation, glazing, balustrades, and more in Cape Town. WhatsApp us or visit our office.",
+    "Get in touch with Clean View Glass for a free quote on glass cut to size, balustrades, mirrors, and more in Cape Town. WhatsApp us or visit our workshop.",
 };
 
 export default function ContactPage() {

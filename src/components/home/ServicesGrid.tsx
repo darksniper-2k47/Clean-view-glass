@@ -25,7 +25,7 @@ export function ServicesGrid() {
     <section id="services" className="py-24 px-6 lg:px-8 max-w-7xl mx-auto">
       <SectionHeading
         label="What We Do"
-        title="Architectural Glazing Services"
+        title="Glass Cut to Size"
       />
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

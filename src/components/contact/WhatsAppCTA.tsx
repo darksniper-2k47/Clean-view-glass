@@ -15,7 +15,7 @@ export function WhatsAppCTA() {
       </div>
 
       <a
-        href={`${BUSINESS.whatsappUrl}?text=${encodeURIComponent("Hi, I'd like to get a quote for glass installation.")}`}
+        href={`${BUSINESS.whatsappUrl}?text=${encodeURIComponent("Hi, I'd like to get a quote for glass cut to size.")}`}
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#20BD5A] text-white px-8 py-4 rounded-[0.375rem] font-headline font-bold text-lg transition-all duration-200 ease-out cursor-pointer shadow-[var(--shadow-ghost)]"

@@ -6,7 +6,7 @@ import { CoreValues } from "@/components/about/CoreValues";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about Clean View Glass — Cape Town's trusted glass installation experts. Premium materials, honest pricing, and precise craftsmanship since day one.",
+    "Learn about Clean View Glass — Cape Town's trusted glass cutting and supply experts. Premium materials, honest pricing, and precise craftsmanship since day one.",
 };
 
 export default function AboutPage() {

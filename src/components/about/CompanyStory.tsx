@@ -13,15 +13,15 @@ export function CompanyStory() {
               <p>
                 Founded on the principles of precision and clarity, Clean View
                 Glass has spent years perfecting the art of architectural glass
-                installation. Our journey began with a simple mission: to bridge
-                the gap between structural necessity and aesthetic brilliance.
+                glass supply. Our journey began with a simple mission: to bridge
+                the gap between what builders need and what the market offers.
               </p>
               <p>
-                We specialize in high-end residential and commercial projects
-                where &ldquo;good enough&rdquo; is never the standard. From
-                frameless showers to complex curtain walls, our team handles
-                every project with a level of detail that mirrors the
-                transparency of the glass we install.
+                We specialize in cutting and supplying glass for residential and
+                commercial projects where &ldquo;good enough&rdquo; is never
+                the standard. From shower panels to shopfront panes, our team
+                handles every order with a level of precision that mirrors the
+                clarity of the glass we cut.
               </p>
               <p className="font-semibold text-primary italic border-l-4 border-primary pl-6 py-2">
                 Our mission is uncompromising quality — ensuring that every view

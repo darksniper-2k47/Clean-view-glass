@@ -7,8 +7,8 @@ export function ContactHeader() {
             Contact Us
           </h1>
           <p className="text-xl text-on-surface-variant leading-relaxed">
-            Get in touch for a premium glass installation quote. Experience
-            architectural clarity in every detail of your project.
+            Get in touch for a quote on glass cut to your exact specifications.
+            Precision cutting for every project, big or small.
           </p>
         </div>
       </div>

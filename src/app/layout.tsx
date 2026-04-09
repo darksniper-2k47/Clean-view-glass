@@ -24,21 +24,22 @@ export const metadata: Metadata = {
     template: "%s | Clean View Glass",
   },
   description:
-    "Premium glass installation and glazing services for homes and businesses in Cape Town. Residential glass, commercial glazing, balustrades, mirrors, and emergency repair.",
+    "Premium glass cut to size for homes and businesses in Cape Town. Residential glass, commercial glass, balustrades, mirrors, splashbacks, and emergency supply.",
   keywords: [
-    "glass installation Cape Town",
-    "glazing services",
+    "glass cut to size Cape Town",
+    "custom cut glass",
+    "glass supplier Cape Town",
     "glass balustrades",
     "shopfront glass",
     "residential glass Cape Town",
-    "commercial glazing",
-    "emergency glass repair",
+    "commercial glass supply",
+    "emergency glass Cape Town",
     "Clean View Glass",
   ],
   openGraph: {
     title: "Clean View Glass | Premium Glass Solutions Cape Town",
     description:
-      "Precision glass installation and glazing services for homes and businesses in Cape Town.",
+      "Premium glass cut to size for homes and businesses in Cape Town.",
     type: "website",
     locale: "en_ZA",
     siteName: "Clean View Glass",
